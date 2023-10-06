@@ -1,0 +1,8 @@
+check versions of django : pypi.org
+
+activate env on server: 
+vagrant@ubuntu-bionic:/vagrant$ python -m venv ~/env
+vagrant@ubuntu-bionic:/vagrant$ source ~/env/bin/activate
+(env) vagrant@ubuntu-bionic:/vagrant$ deactivate
+
+(env) vagrant@ubuntu-bionic:/vagrant$ pip install -r requirements.txt
